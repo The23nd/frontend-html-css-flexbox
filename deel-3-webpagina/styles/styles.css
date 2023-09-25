@@ -1,1 +1,58 @@
 /*Schrijf hier jouw css*/
+
+body {
+    background-color: #F2F3D9;
+    font-family: "Times New Roman", sans-serif;
+    color: #030027;
+    text-align: center;
+}
+
+.name-page {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation {
+    background-color: #030027;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-section {
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.article-text {
+    background-color: #C16E70;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}

@@ -1,1 +1,93 @@
 /*Schrijf hier jouw CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.opdracht-1 .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.opdracht-2 .container2 {
+    display: flex;
+    flex-direction: row;
+}
+.opdracht-2 .item {
+    width: 33%;
+}
+
+
+.opdracht-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container3 .top-left {
+    align-self: flex-start;
+}
+.container3 .centered-regel {
+    align-self: center;
+}
+.container3 .bottom-right {
+    align-self: flex-end;
+}
+
+.opdracht-3 .container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-left {
+    align-content: flex-start;
+}
+.centered-regel {
+    align-content: center;
+}
+.bottom-right {
+    align-self: flex-end;
+}
+
+
+.opdracht-4 .container4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+.opdracht-5 .container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.container5 .column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+.container5 .column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.container5 .column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 30px;
+}
